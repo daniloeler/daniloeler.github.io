@@ -3,44 +3,146 @@
 <head>
     <meta charset="UTF-8"/>	
     <title>Danilo Medeiros Eler Website</title>
+	
+	<style>
+
+	
+html{
+	height: 100%;
+}
+
+body{
+    padding: 0px;
+	margin: 0px;
+	//min-height: 100%;
+}
+
+header{
+  display:block;
+  width:100%;
+  background:white;
+  text-align:center;  
+  top: 0;
+  padding: 10 0px;
+  margin: 0px;
+  z-index: 1000;
+  position:fixed;
+}
+
+header p {
+    text-align: center;
+	font-size: 28px;
+	margin: 10px 0px 0px 0px;
+}
+
+header hr {    
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+}
+
+header img {
+  float: left;
+  margin: 5px 5px;
+}
+
+header nav{
+  padding: 10px;
+  margin: 5px;
+  float: right;
+}
+
+header nav p{
+  float: left;
+  margin: 0px;
+  padding: 0px 10px 0px 10px;
+  font-size: 20px;
+}
+
+main{
+	margin-top: 70px;
+}
+
+#sobre img{
+	float:left;
+}
+
+#sobre div{
+    margin-left: 210px;
+	height: 250px;
+}
+
+#sobre div p,h1,h2,h3{
+	margin: 2px;
+}
+#education{
+	float:right;
+	margin-right:100px;
+}
+p{
+ margin: 10px;
+}
+
+
+</style>
 </head>
 
-<script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /*loop through a collection of all HTML elements:*/
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /*make an HTTP request using the attribute value as the file name:*/
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /*remove the attribute, and call this function once more:*/
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }      
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /*exit the function:*/
-      return;
-    }
-  }
-};
-</script>
 
 <body>	
-	<header w3-include-html="header.html">	
+	<header>	
+	<img src="logoUnesp.png" alt="unesp logo" width=124 height=40> 
+	<nav>
+	  <p>Sobre</p>
+	  <p>Pesquisas</p>
+	  <p>Ensino</p>
+	</nav>
+	
+	<p> Danilo Medeiros Eler</p>	
+	
+	 <hr>
 	</header>
-	<script>
-	  includeHTML();
-    </script>
-    <p> Danilo Medeiros Eler Website </p>
+	
+	<main>
+	<section id="sobre">
+		<p> <img src="foto.jpg"> </p>
+		
+		<div id="education">
+			<h1>Education:</h1>
+			
+			<p>Postdoc ICMC-USP - São Carlos, Brazil, 2012</p>
+			<p>Ph.D. ICMC-USP - São Carlos, Brazil, 2011</p>
+			<p>MsC. ICMC-USP - São Carlos, Brazil, 2006</p>
+			<p>B.Sc. FIPP-Unoeste - Presidente Prudente, Brazil, 2001</p>
+		</div>
+		
+		<div>
+			<h1> Danilo Medeiros Eler</h1>
+			<h3> Assistant Professor</h3>
+			<br />
+			<p> Universidade Estatual Paulista "Júlio de Mesquita Filho" (UNESP)</p>			
+			<p> Faculdade de Ciências e Tecnologia</p>
+			<p> Departamento de Matemática e Computação</p>
+		</div>
+		
+		
+	</section>
+	
+	
+	
+	<section id="pesquisas">
+	<hr>
+	<h1>PESQUISAS </h1>
+	<p> teste  teste da teste</p>
+	<p>asdfas dfasfdsafa sdf sadfsadf</p>
+	<p> <img src="logoUnesp.png"> </p>
+	
+	<p> teste  teste da teste</p>
+	<p>asdfas dfasfdsafa sdf sadfsadf</p>
+	<p> <img src="logoUnesp.png"> </p>
+	
+	<p> teste  teste da teste</p>
+	<p>asdfas dfasfdsafa sdf sadfsadf</p>
+	<p> <img src="logoUnesp.png"> </p>
+	</section>
+	</main>
 </body>
 </html>
