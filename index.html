@@ -62,17 +62,20 @@ main{
 	margin-top: 70px;
 }
 
-#sobre img{
-	float:left;
+.sobre{
+	display:flex;
+	//align-itens:center;
 }
 
-#sobre div{
-    margin-left: 210px;
-	height: 250px;
+.sobre_foto{
+	flex:1;
+}
+.sobre_presentation{
+	flex:4;
 }
 
-#sobre div p,h1,h2,h3{
-	margin: 2px;
+.sobre_education{
+	flex:3;
 }
 
 p{
@@ -100,11 +103,12 @@ p{
 	</header>
 	
 	<main>
-	<section id="sobre">
-		<p> <img src="foto.jpg"> </p>
+	<section class="sobre">
+	    <div class="sobre_foto">
+			<p> <img src="foto.jpg"> </p>
+		</div>
 		
-		
-		<div>
+		<div class="sobre_presentation">
 			<h1> Danilo Medeiros Eler</h1>
 			<h3> Assistant Professor</h3>
 			<br />
@@ -112,8 +116,13 @@ p{
 			<p> Faculdade de Ciências e Tecnologia</p>
 			<p> Departamento de Matemática e Computação</p>
 		</div>
-		
-		
+		<div class="sobre_education">
+			<h1>Education:</h1>			
+			<p>Postdoc ICMC-USP - São Carlos, Brazil, 2012</p>
+			<p>Ph.D. ICMC-USP - São Carlos, Brazil, 2011</p>
+			<p>MsC. ICMC-USP - São Carlos, Brazil, 2006</p>
+			<p>B.Sc. FIPP-Unoeste - Presidente Prudente, Brazil, 2001</p>
+		</div>		
 	</section>
 	
 	<section id="education">
