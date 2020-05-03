@@ -23,12 +23,12 @@ main{
 
 #secAtividades{
   /*  border: solid;*/
-    flex: 5;
+    flex-basis: 75%;
 }
 
 #secTrabalhos{
  /*  border: solid;*/
-   flex: 2;
+   flex-basis: 25%;
 }
 
 .divCentralizado{
