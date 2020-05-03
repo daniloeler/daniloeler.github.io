@@ -9,24 +9,25 @@ h1, h2, h3{
 
 #headerPrincipal{
     text-align: center;
-    border: solid;
+    /*  border: solid;*/
     width: 100%;
 }
 
 .sectionHeader{
     text-align: center;
-    border: solid;
+    /*  border: solid;*/
     width: 100%;
+    margin-top: 15px;
 }
 
 
 #secAtividades{
-   border: solid;
+/*  border: solid;*/
    width: 100%;
 }
 
 #secTrabalhos{
-  border: solid;
+/*  border: solid;*/
   width: 100%;
 }
 
