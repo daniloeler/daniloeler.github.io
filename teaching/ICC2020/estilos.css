@@ -6,6 +6,38 @@ h1, h2, h3{
     margin:  2px;
 }
 
+
+#headerPrincipal{
+    text-align: center;
+}
+
+.sectionHeader{
+    text-align: center;
+}
+
+main{
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+
+#secAtividades{
+  /*  border: solid;*/
+    flex: 5;
+}
+
+#secTrabalhos{
+ /*  border: solid;*/
+   flex: 2;
+}
+
+.divCentralizado{
+    position: relative;
+    left: 30%;
+}
+
+
+/*
 @media (min-width: 800px){
 secPrincipal{
     display: flex;
@@ -19,22 +51,4 @@ main{
     justify-content: space-around;    
 }
 }
-
-#headerPrincipal{
-    text-align: center;
-}
-
-.sectionHeader{
-    text-align: center;
-}
-
-
-#secAtividades{
-    border: solid;
-    flex-basis: 40%;
-}
-
-#secTrabalhos{
-    border: solid;
-    flex-basis: 40%;
-}
+*/
