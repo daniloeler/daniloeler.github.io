@@ -20,7 +20,7 @@ h1, h2, h3{
 }
 
 #secAtividades{
- /*  background-color: #66ccee;*/
+   background-color: #66ccee;
     width: 50%;
     position: absolute;
     left: 0px;
@@ -47,4 +47,11 @@ h1, h2, h3{
     font-size: large;
     border: solid;
     padding-left: 10px;
+}
+
+
+@media (max-width: 500px){
+    #secAtividades{
+        top: 300px;
+    }
 }
