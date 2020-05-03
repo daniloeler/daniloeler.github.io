@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3{
+    margin:  2px;
+}
+
+.headerCentralizado{
+    text-align: center;
+    width: 100%;
+   /* background-color: #22aaff;*/
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 160px;    
+}
+
+#secAtividades{
+ /*  background-color: #66ccee;*/
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    top: 160px;
+}
+
+#secTrabalhos{
+    /*background-color: #66ccdd;*/
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 160px;
+}
+
+.sectionHeader{
+    text-align: center;
+    height: 30px;
+}
+
+.divCentralizado{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    font-size: large;
+    border: solid;
+    padding-left: 10px;
+}
