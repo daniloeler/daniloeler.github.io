@@ -14,6 +14,24 @@ h1, h2, h3{
 .sectionHeader{
     text-align: center;
 }
+
+
+#secAtividades{
+ /*  border: solid;*/
+}
+
+#secTrabalhos{
+/*  border: solid;*/
+}
+
+@media screen and (min-width: 600px) {
+    .divCentralizado{
+        position: relative;
+        left: 30%;
+    }
+}
+
+/*
 @media (min-width: 800px){
 main{
     display: flex;    
@@ -21,23 +39,6 @@ main{
 }
 }
 
-#secAtividades{
-  /*  border: solid;*/
-    flex-basis: 75%;
-}
-
-#secTrabalhos{
- /*  border: solid;*/
-   flex-basis: 25%;
-}
-
-.divCentralizado{
-    position: relative;
-    left: 30%;
-}
-
-
-/*
 @media (min-width: 800px){
 secPrincipal{
     display: flex;
