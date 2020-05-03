@@ -6,7 +6,7 @@ h1, h2, h3{
     margin:  2px;
 }
 
-@media (min-width: 200px){
+@media (min-width: 50px){
 secPrincipal{
     display: flex;
     flex-direction: column;
