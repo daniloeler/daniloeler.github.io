@@ -9,19 +9,21 @@ h1, h2, h3{
 
 #headerPrincipal{
     text-align: center;
+    border: solid;
 }
 
 .sectionHeader{
     text-align: center;
+    border: solid;
 }
 
 
 #secAtividades{
- /*  border: solid;*/
+   border: solid;
 }
 
 #secTrabalhos{
-/*  border: solid;*/
+  border: solid;
 }
 
 @media screen and (min-width: 600px) {
