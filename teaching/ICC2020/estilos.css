@@ -10,20 +10,24 @@ h1, h2, h3{
 #headerPrincipal{
     text-align: center;
     border: solid;
+    width: 100%;
 }
 
 .sectionHeader{
     text-align: center;
     border: solid;
+    width: 100%;
 }
 
 
 #secAtividades{
    border: solid;
+   width: 100%;
 }
 
 #secTrabalhos{
   border: solid;
+  width: 100%;
 }
 
 @media screen and (min-width: 600px) {
