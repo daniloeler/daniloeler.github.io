@@ -5,6 +5,8 @@ body{
 h1, h2, h3{
     margin:  2px;
 }
+
+@media (min-width: 300px){
 secPrincipal{
     display: flex;
     flex-direction: column;
@@ -15,6 +17,7 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;    
+}
 }
 
 #headerPrincipal{
