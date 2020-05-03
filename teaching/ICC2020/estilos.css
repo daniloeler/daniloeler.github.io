@@ -30,6 +30,13 @@ h1, h2, h3{
   width: 100%;
 }
 
+.divCentralizado{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
 @media screen and (min-width: 600px) {
     .divCentralizado{
         position: relative;
@@ -37,7 +44,6 @@ h1, h2, h3{
     }
 }
 
-/*
 @media (min-width: 800px){
 main{
     display: flex;    
