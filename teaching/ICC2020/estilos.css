@@ -2,8 +2,21 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
 h1, h2, h3{
     margin:  2px;
+}
+
+h1{
+  font-size: 1.8em;
+}
+
+h2{
+  font-size: 1.4em;
+}
+
+h3{
+  font-size: 1.2em;
 }
 
 
