@@ -35,12 +35,15 @@ h3{
 
 
 #secAtividades{
-/*  border: solid;*/
+/*  border: solid;
+  border-top:solid;*/
    width: 100%;
 }
 
 #secTrabalhos{
-/*  border: solid;*/
+/*  border: solid;
+border-top:solid;*/
+
   width: 100%;
 }
 
