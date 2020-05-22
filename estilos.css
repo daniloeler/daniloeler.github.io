@@ -84,6 +84,12 @@ p{
  margin: 10px;
 }
 
+.h1_section{
+	padding: 0 0 0 0.5em;
+	margin: 0px;
+}
+
+
 .disciplinas{
     margin: 0px;    
     display: flex;
