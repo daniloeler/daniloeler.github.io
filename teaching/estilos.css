@@ -12,7 +12,7 @@ body{
     flex-wrap: wrap;
 }
 
-.poo, .icc{
+.poo, .icc, .vis, .paa{
     text-align: center;
     background-color: #00CCEE;
     padding: 20px;    
