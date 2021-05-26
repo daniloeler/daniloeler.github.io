@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3{
+    margin:  2px;
+}
+
+h1{
+  font-size: 1.8em;
+}
+
+h2{
+  font-size: 1.4em;
+}
+
+h3{
+  font-size: 1.2em;
+}
+
+#homeLink{
+   float: right;
+   margin: 10px;
+}
+
+#headerPrincipal{
+    text-align: center;
+    /*  border: solid;*/
+    width: 100%;
+}
+
+.sectionHeader{
+    text-align: center;
+    /*  border: solid;*/
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+#secAtividades{
+/*  border: solid;
+  border-top:solid;*/
+   width: 100%;
+}
+
+#secTrabalhos{
+/*  border: solid;
+border-top:solid;*/
+
+  width: 100%;
+}
+
+.divTalks{
+  margin: 10px;
+}
+
+.divTalkItem{
+  margin-top: 15px;
+}
+
+.divCentralizado{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+@media screen and (min-width: 600px) {
+    .divCentralizado{
+        position: relative;
+        left: 30%;
+    }
+}
+
+@media (min-width: 800px){
+main{
+    display: flex;    
+    flex-wrap: wrap;
+}
+}
+
+@media (min-width: 800px){
+secPrincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+}
+*/
